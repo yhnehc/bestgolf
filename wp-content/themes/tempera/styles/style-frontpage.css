@@ -4,7 +4,8 @@
 	 display: block;
 	 float:none;
 	 clear:both;
-     margin: 0 auto 40px;
+     /*margin: 0 auto 40px;*/
+     margin-bottom: 40px;
 	 }
 .slider-shadow  {
 	/*background:url(../images/slider/slider-shadow-left.png) left -10px no-repeat, url(../images/slider/slider-shadow-right.png) right -10px no-repeat;

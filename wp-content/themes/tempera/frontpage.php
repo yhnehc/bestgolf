@@ -242,9 +242,32 @@ function tempera_columns_output($columns,$nr_columns,$readmore){
 		</div><?php endif; // if image
 	endforeach; ?>
 </div> <?php 
-} // tempera_columns_readmore
+}?>
 
+<div class="splitLine">
+<p class="title">教练简介</p>
+</div>
+<br>
+<div class="frontpage_video">
+  <div class='left'>
+    温哥华专业高尔夫球教练，多年教学经验，大量实地经验，耐心，细心，因人而异的教学方式以及最精准的会感分析仪器。保证让您用最少的价格在最短的时间里面收获年最多。驻场richmond，但是大温地区任何城市任何城市任何球场均可教学。欢迎初学者和想提高成绩的同学踊跃报名，更提供下场教学.
+  </div>
+  <div class='right'>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/AfZqudNk-vk" frameborder="0" allowfullscreen></iframe>
+    <!-- <video width="400" controls>
+      <source src="wp-content/themes/tempera/videos/238152519.mp4" type="video/mp4">
+      <source src="mov_bbb.ogg" type="video/ogg">
+      Your browser does not support HTML5 video.
+    </video> -->
+  </div>
+</div>
 
+<div class="splitLine">
+<p class="title">网站动态</p>
+</div>
+
+<br><br>
+<?php
 // Second FrontPage title
 if($tempera_fronttext2) {?><div id="front-text2"> <h1><?php echo do_shortcode($tempera_fronttext2) ?> </h1></div><?php }
 
